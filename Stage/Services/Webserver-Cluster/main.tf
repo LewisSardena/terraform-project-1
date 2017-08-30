@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-	source = "C:\Users\lewis.sardena.KOBALTMUSIC\Documents\Terraform\Modules\Services\Webserver-Cluster"
+	source = "..\..\..\modules\services\webserver_cluster"
 }
