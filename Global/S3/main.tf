@@ -10,6 +10,11 @@ resource "aws_s3_bucket" "terraform_state_global" {
 resource "aws_s3_bucket" "terraform_state_stage" {
 	bucket = "terraform-state-stage2386483"
 	
+}
+
+resource "aws_s3_bucket" "terraform_state_data-stores" {
+	bucket = "terraform-state-data-stores96678696"
+	
 	versioning {
 		enabled = true
 	}
